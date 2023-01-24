@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.nav-img{
+    width: 50px;
+}
+
+li{
+    list-style: none;
+}
+.side-img img{
+    width: 50px;
+    display: block;
+    max-width: 100%;
+}
+li::before{
+    display: none;
+}
+.ftcl li a{
+    color: rgb(114, 99, 99);
+}
+.bg2{
+    background-color: whitesmoke;
+}
+
+.imgd{
+    position: absolute;
+    top: .9em;
+    left: 2em;
+    font-size: 5rem;
+    border: 8px solid #fff;
+    border-radius: 2em;
+    
+}
